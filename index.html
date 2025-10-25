@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="个人信息展示页面 - 现代化设计">
+    <title>个人信息展示 | Personal Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 背景装饰 -->
+    <div class="background-decoration">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+    </div>
+
+    <!-- 主容器 -->
+    <div class="container">
+        <!-- 个人头像区域 -->
+        <section class="profile-header">
+            <div class="avatar-container">
+                <div class="avatar">
+                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="个人头像" id="avatar-img">
+                    <div class="avatar-overlay">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="status-indicator"></div>
+            </div>
+            
+            <!-- 基本信息 -->
+            <div class="basic-info">
+                <h1 class="name">张三 <span class="wave">👋</span></h1>
+                <p class="position">全栈开发工程师 | Full Stack Developer</p>
+                <p class="bio">
+                    热爱技术，专注于前端和后端开发。追求优雅的代码和极致的用户体验。
+                    喜欢学习新技术，乐于分享知识。
+                </p>
+            </div>
+        </section>
+
+        <!-- 技能展示模块 -->
+        <section class="skills-section">
+            <h2 class="section-title">
+                <i class="fas fa-code"></i>
+                技能专长
+            </h2>
+            <div class="skills-container">
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5 & CSS3</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="95"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="90"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="85"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3>Node.js</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="88"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="82"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card" data-category="tools">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="92"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 社交链接和联系方式 -->
+        <section class="contact-section">
+            <h2 class="section-title">
+                <i class="fas fa-address-book"></i>
+                联系我
+            </h2>
+            
+            <!-- 社交媒体链接 -->
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link github" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link linkedin" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link twitter" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+                
+                <a href="mailto:example@email.com" class="social-link email" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+            </div>
+
+            <!-- 联系信息卡片 -->
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h4>邮箱</h4>
+                        <a href="mailto:example@email.com">example@email.com</a>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h4>电话</h4>
+                        <a href="tel:+8613800138000">+86 138-0013-8000</a>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h4>位置</h4>
+                        <p>中国 · 北京</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <p>&copy; 2024 个人信息展示页面. All rights reserved.</p>
+            <p class="footer-note">Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i></p>
+        </footer>
+    </div>
+
+    <!-- 返回顶部按钮 -->
+    <button class="back-to-top" id="backToTop" aria-label="返回顶部">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
